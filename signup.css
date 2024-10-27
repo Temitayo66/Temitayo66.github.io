@@ -1,0 +1,72 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url(bgimg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Lato", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: white;
+	background-color: transparent;
+	width: 300px;
+}
+
+input::placeholder {
+	font-weight: bold;
+	opacity: 0.5;
+	color: white;
+}
+
+label {
+	color: white;
+	font-weight: bold;
+	
+}
+
+input[type=email], input[type=text], input[type=password], input[type=tel] {
+	color: white;
+}
+
+.Signup {
+	width: 150px;
+	background-color: transparent;
+	font-weight: bold;
+	border-radius: 15px;
+	border-width: 3px;
+	border-color: gray;
+}
+
+.Signup:hover {
+	background-color: gray;
+	border-color: gray;
+}
+
+.login {
+	font-weight: bold;
+	width: 140px;
+	border-radius: 15px;
+	color: white;
+	border-color: gray;
+	border-width: 3px;
+	background-color: transparent;
+}
+
+.login:hover {
+	background-color: gray;
+	border-color: gray;
+}

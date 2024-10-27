@@ -1,0 +1,88 @@
+html, body { 
+  background: url(bgimg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  height: 100%;
+}
+
+.searchbtn {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
+
+.searchbtn:hover {
+  background-color: gold;
+  border-width: 1.25px;
+}
+
+.mynav {
+  box-shadow: 0px 5px 5px black;
+}
+
+  /*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900*/
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*// <weight>: Use a value from 100 to 400/*/
+.motto {
+  font-family: "Playwrite GB S", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.discover {
+  margin-top: 170px;
+}
+
+.explorebtn {
+  border-radius: 28px;
+  width: 125px;
+  background-color: gray;
+  border-color: gray;
+  font-weight: bold;
+}
+
+.explorebtn:hover {
+  border-width: 2px;
+  background-color: gray;
+  border-color: gray;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  margin: 0px 10px 0px 10px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+div li {
+  list-style-type: none;
+}
